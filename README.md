@@ -44,7 +44,7 @@ Applies cutoff thresholds to metrics such as:
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 This project uses the following Python libraries:
 - `polars`

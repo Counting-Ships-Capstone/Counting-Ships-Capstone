@@ -15,6 +15,7 @@ The project provides a repeatable, data-driven framework for identifying and eva
 | `K_Means_Clustering.ipynb` | Clusters vessel tracks using k-means clustering on six-dimensional feature vectors (start/end location, average speed/course, and sinuosity). |
 | `Gaussian_Mixture.ipynb` | Applies Gaussian Mixture Model (GMM) clustering to the same track features for improved separation of overlapping patterns. |
 | `DBSCAN_DTW.ipynb` | Implements DBSCAN clustering with Dynamic Time Warping (DTW) distance for identifying dense trajectory patterns and noise. |
+| `Capstone_ArcGIS_Package.ppkx` | Applies geospacial data processing in ArcGIS Pro. |
 
 ---
 
@@ -57,7 +58,7 @@ This project uses the following Python libraries:
 
 1. Download AIS data from [Marine Cadastre](https://marinecadastre.gov/ais).
 2. Use `Random_Sampling.py` to generate a manageable dataset.
-3. Clip to a proposed fairway polygon in ArcGIS Pro.
+3. Clip to a proposed fairway polygon in ArcGIS Pro using ArcGIS Pro and the `Capstone_ArcGIS_Package.ppkx` file.
 4. Choose either:
    - `Business_Cases.py` to apply filtering metrics, or
    - One of the clustering notebooks for unsupervised analysis.
